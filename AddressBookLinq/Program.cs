@@ -83,6 +83,9 @@ namespace AddressBookLinq
                         book.SortContactsAlphabeticalyForACity(cityName);
                         break;
                     case 9:
+                        book.CountContactsByContactType();
+                        break;
+                    case 10:
                         loop = 0;
                         break;
                 }
