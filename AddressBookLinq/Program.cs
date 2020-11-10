@@ -60,6 +60,11 @@ namespace AddressBookLinq
                         book.EditContact(FirstName, LastName, Address, City, State, ZipCode, PhoneNumber, Email);
                         break;
                     case 4:
+                        Console.WriteLine("Enter FirstName of contact to be deleted");
+                        string name = Console.ReadLine();
+                        book.DeleteContact(name);
+                        break;
+                    case 5:
                         loop = 0;
                         break;
                 }
