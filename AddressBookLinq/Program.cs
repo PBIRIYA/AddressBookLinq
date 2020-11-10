@@ -78,6 +78,11 @@ namespace AddressBookLinq
                         book.CountByCityAndState();
                         break;
                     case 8:
+                        Console.WriteLine("Enter City");
+                        string cityName = Console.ReadLine();
+                        book.SortContactsAlphabeticalyForACity(cityName);
+                        break;
+                    case 9:
                         loop = 0;
                         break;
                 }
