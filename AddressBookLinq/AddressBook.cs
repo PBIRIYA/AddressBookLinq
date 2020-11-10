@@ -24,7 +24,7 @@ namespace AddressBookLinq
             dataTable.Columns.Add("EmailID", typeof(string));
             //Some pre existing contacts added
             dataTable.Rows.Add("Sheldon", "Cooper", "Street 4", "Casper", "Texas", "525252", "9876778434", "cooper@yahoo.com");
-            dataTable.Rows.Add("Siddhi", "Seth", "Gopal Vihar", "Jabalpur", "Madhya Pradesh", "856985", "7458658925", "siddhiseth@gmail.com");
+            dataTable.Rows.Add("Priya", "Biriya", "Ghamapur", "Jabalpur", "Madhya Pradesh", "856985", "7415657265", "priyabiriya1707@gmail.com");
             dataTable.Rows.Add("Priyanka", "Chopra", "Street 5", "NewYork", "NewYork", "520147", "5201118267", "priyanka@gmail.com");
             dataTable.Rows.Add("Kareena", "Kapoor", "Bandra", "Mumbai", "Maharashtra", "852412", "7458965896", "kareena@yahoo.com");
             dataTable.Rows.Add("Aditya", "Singh", "NavyNagar", "Vizag", "Andra Pradesh", "842563", "7849876734", "aditya@rediffmail.com");
