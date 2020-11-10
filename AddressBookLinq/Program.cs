@@ -75,6 +75,9 @@ namespace AddressBookLinq
                         book.RetrieveContactsByState(state);
                         break;
                     case 7:
+                        book.CountByCityAndState();
+                        break;
+                    case 8:
                         loop = 0;
                         break;
                 }
