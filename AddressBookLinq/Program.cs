@@ -65,6 +65,16 @@ namespace AddressBookLinq
                         book.DeleteContact(name);
                         break;
                     case 5:
+                        Console.WriteLine("Enter City");
+                        string city = Console.ReadLine();
+                        book.RetrieveContactsByCity(city);
+                        break;
+                    case 6:
+                        Console.WriteLine("Enter State");
+                        string state = Console.ReadLine();
+                        book.RetrieveContactsByState(state);
+                        break;
+                    case 7:
                         loop = 0;
                         break;
                 }
